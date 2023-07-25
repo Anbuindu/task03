@@ -1,0 +1,71 @@
+/*            Home           */
+
+.container-fluid{
+    font-family: Barlow Condensed;
+    font-size: large;
+    font-weight:400;
+}
+.d {
+    
+    font-size:xx-large;
+    -webkit-text-fill-color: aliceblue;
+    text-align:justify;
+}
+.j{
+    -webkit-text-fill-color: aliceblue;
+}
+.j a:hover{
+    -webkit-text-fill-color: rgb(69, 248, 46);
+}
+
+
+/*            Trending       */
+
+.container1 .card {
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(1, 6, 12);
+    
+   padding: 25px;
+    height: 22rem;
+    width: 20rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+
+}
+.container1 .card:hover{
+    background:linear-gradient(rgb(241, 11, 165),rgb(100, 3, 129));
+    box-shadow:inset 5px 5px 10px  rgba(0,0,0,.3),
+    inset 4px 4px 10px white;
+    font-weight: 300;
+    color:azure;
+    transform:scale(1.1);
+     transition:0.5s;
+
+
+}
+
+/*         Contact Us          */
+
+.x .y .z{
+    border: 2px solid rgb(230, 31, 31);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+}
+
+input{
+    background-color: #19f3d6;
+}
+
+button{
+    background-color: rgb(141, 5, 80);
+    border-radius: 5px;
+}
+
+
+
